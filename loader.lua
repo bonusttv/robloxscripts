@@ -180,7 +180,7 @@ local notification =
     notification(
         {
             Title = "Script is loading",
-            Text = "Please wait while we load the proper hub for your game.",
+            Text = "This might take a while. Do not leave.",
             Duration = 15
         }
     )
