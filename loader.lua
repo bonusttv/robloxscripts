@@ -173,6 +173,23 @@
 
 
 
+local notification =
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wrestonbest/My-Scripts/refs/heads/main/Notification/main.lua"))(
+
+    )
+    notification(
+        {
+            Title = "Script is loading",
+            Text = "Please wait while we bypass the anticheat.",
+            Duration = 15
+        }
+    )
+
+
+
+
+
+    
 repeat task.wait() until game:IsLoaded()
 
 local Games = {
@@ -188,6 +205,9 @@ for i, v in pairs(Games) do
         loadstring(game:HttpGet(v))()
     end
 end
+
+
+
 
 
 
