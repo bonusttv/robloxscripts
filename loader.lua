@@ -180,7 +180,7 @@ local notification =
     notification(
         {
             Title = "Script is loading",
-            Text = "Please wait while we bypass the anticheat.",
+            Text = "Please wait while we load the proper hub for your game.",
             Duration = 15
         }
     )
