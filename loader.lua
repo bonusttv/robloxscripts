@@ -181,7 +181,7 @@ local notification =
         {
             Title = "Script is loading",
             Text = "This might take a while. Do not leave.",
-            Duration = 15
+            Duration = 99999
         }
     )
 
